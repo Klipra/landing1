@@ -1,0 +1,114 @@
+.menu {
+	font-family: 'font1';
+	display: flex;
+	list-style-type: none;
+	color: #171717;
+}
+
+*,body,html{
+	margin: 0;
+}
+
+.active{
+	color: #C9A96E;
+}
+
+.menu li{
+	margin-left: 36px;
+}
+
+
+.logo{
+	width: 128px;
+	height: 32px;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-items:  center;
+	padding: 0  80px;
+}
+
+.hero{
+position: relative;
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+.hero img{
+width: 100%;
+height: 700px;
+right: 100%;
+/* filter: brightness(75%); */
+justify-content: space-between;
+box-shadow: #171717;
+}
+
+
+.vehicle{
+	font-family: 'font1';
+	position: absolute;
+	color: white;
+	top: 495px;
+	left: 381px;
+	font-size: 14px;
+}
+
+.bolt1{
+	font-family: 'font2';
+	position: absolute;
+	color: white;
+	left: 381px;
+	top: 512px;
+	font-size: 40px;
+}
+
+.data{
+	font-family: 'font1';
+	position: absolute;
+	color: white;
+	left: 381px;
+	top: 622px;
+	font-size: 14px;
+}
+
+#by{
+	color: black;
+}
+
+.post1{
+	
+	margin-left: 375px;
+	margin-top: 60px;
+}
+
+
+.post1 img{
+width: 370px;
+height: 280px;
+top: 860px;
+left: 375px;
+}
+
+.post1 p{
+	font-family: 'font1';
+	padding-left:  50%;
+	size: 14px;
+	color: rgba(201, 169, 110, 1);
+
+}
+
+
+@font-face {
+	font-family: 'font1';
+	src: url('./fonts/PT_Serif-Web-Regular.ttf');
+	
+}
+
+@font-face {
+	font-family: 'font2';
+	src: url(./fonts/PT_Serif-Web-Bold.ttf);
+}
